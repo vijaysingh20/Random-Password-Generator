@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #4af;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    min-height: 600px;
+}
+
+.main-content {
+    background-color: rgb(30, 30, 78);
+    min-width: 200px;
+    min-height: 600px;
+    height: 630px;
+    width: 480px;
+    margin: 50px 200px;
+    padding: 30px 40px;
+    color: white;
+}
+
+.result {
+    margin: 20px 0;
+    height: 70px;
+    width: 400px;
+    text-align: center;
+    background-color: #172526;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    caret-color: transparent;
+}
+
+p{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    opacity: 50%;
+}
+
+.pass-length {
+    margin-bottom: 20px;
+    height: 50px;
+    width: 400px;
+    background-color: #172526;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    width: 100%;
+}
+
+.range {
+    -webkit-appearance: none;
+    width: 85%;
+    opacity: 70%;
+    height: 4px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #565656;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff; 
+}
+
+.upperCase {
+    height: 50px;
+    width: 400px;
+    background-color: #172526;
+    color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.upperCase label, .lowerCase label, .number label, .specialChar label {
+    font-size: 20px;
+    opacity: 50%;
+}
+
+.lowerCase {
+    height: 50px;
+    width: 400px;
+    background-color: #172526;
+    color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.number {
+    height: 50px;
+    width: 400px;
+    background-color: #172526;
+    color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.specialChar {
+    height: 50px;
+    width: 400px;
+    background-color: #172526;
+    color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 35px;
+    height: 35px;
+}
+
+.generatePass {
+    height: 60px;
+    width: 400px;
+    margin: 10px 0;
+    border-radius: 0.5rem;
+    background-color: rgb(25, 99, 160);
+    color: white;
+}

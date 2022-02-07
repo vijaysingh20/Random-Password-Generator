@@ -15,9 +15,6 @@ lengthEl.oninput = function() {
     slVal = this.value;
 }
 
-
-
-
 function getLower() {
     return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
 }

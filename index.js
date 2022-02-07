@@ -44,7 +44,7 @@ const randomFunc = {
 
 generatePasswordEL[0].addEventListener("click", function() {
     const length = slVal;
-    const isUpper = lowerCaseEL.checked;
+    const isUpper = upperCaseEL.checked;
     const isLower = lowerCaseEL.checked;
     const isNumber = numberEL.checked;
     const isSymbol = symbolEL.checked;
@@ -53,7 +53,7 @@ generatePasswordEL[0].addEventListener("click", function() {
 
     if (password === "") {
         alert("Please select at least one type of input");
-        
+        resultEL.value = null;
     } else{
         resultEL.value = password;
     }
